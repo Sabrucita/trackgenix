@@ -14,4 +14,6 @@ It only requires a browser.
 
 This week is only for HTML structure basics and README file.
 
+[See more of this week's work](https://github.com/Sabrucita/trackgenix/tree/main/Week-01)
+
 *by Sabrina Pereira*
