@@ -7,11 +7,11 @@
 It only requires a browser.
 
 - Find the week you want to explore (listed below)
-- Open the week folder (Semana-01, Semana-02, etc)
+- Open the week folder (Week-01, Week-02, etc)
 - Open the file "index.html" inside the folder
 
 ## Week 01 - HTML
 
-This week is only for HTML structure basics.
+This week is only for HTML structure basics and README file.
 
 *by Sabrina Pereira*
