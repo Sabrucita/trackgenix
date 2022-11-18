@@ -2,6 +2,8 @@
 
 "Trackgenix" is a web system that facilitates the recording of hours worked by each employee in each project and work team for the company GigaTech Software Solutions SA, which provides software development services to other companies.
 
+### LANDING PAGE:
+To check the landing page used as an example, click on the following [link](https://radiumlearning.github.io/landing-example/index.html)
 ## How to open
 
 It only requires a browser.
