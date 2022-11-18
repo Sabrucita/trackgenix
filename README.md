@@ -16,4 +16,11 @@ This week is only for HTML structure basics and README file.
 
 [See more of this week's work](https://github.com/Sabrucita/trackgenix/tree/main/Week-01)
 
+## Week 02 - CSS
+
+This week I worked on the basics styles in the HTML file of the landing page.
+- Flexbox not included.
+
+[See more of this week's work](https://github.com/Sabrucita/trackgenix/tree/main/Week-02)
+
 *by Sabrina Pereira*
