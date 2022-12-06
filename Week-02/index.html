@@ -17,10 +17,12 @@
     <aside class="sidebar-container">
       <nav>
         <section>
-          <form>
-            <input type="text" placeholder="Search">
-          </form>
-          <p>Menu</p>
+          <section id="search">
+            <form>
+              <input type="text" placeholder="Search">
+            </form>
+          </section>
+          <h2>Menu</h2>
           <ul>
             <li><a href="#">Homepage</a></li>
             <li><a href="#">Generic</a></li>
@@ -36,7 +38,7 @@
           </ul>
         </section>
         <section>
-          <p>Get in touch</p>
+          <h2>Get in touch</h2>
           <p>
             Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit
             lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam
@@ -83,11 +85,11 @@
               finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
               Pellentesque sapien ac quam Lorem ipsum dolor sit nullam.
             </p>
-            <button>LEARN MORE</button>
+            <button class="submit-button">LEARN MORE</button>
           </section>
           <img src="/Week-02/assets/blurred.jpg" alt="blurred-image">
         </section>
-        <section>
+        <section class="features">
           <h2>Erat lacinia</h2>
           <section class="features-section">
             <article class="feature">
@@ -128,75 +130,77 @@
             </article>
           </section>
         </section>
-        <section>
+        <section class="features">
           <h2>Ipsum sed dolor</h2>
           <section class="article-section">
             <article>
-              <img src="#" alt="" />
+              <img src="./assets/little-blurred-01.jpg" alt="" />
               <h3>Interdum aenean</h3>
               <p>
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
                 tempus aliquam.
               </p>
-              <button>MORE</button>
+              <button class="submit-button">MORE</button>
             </article>
             <article>
-              <img src="#" alt="" />
+              <img src="./assets/little-blurred-02.jpg" alt="" />
               <h3>Nulla amet dolore</h3>
               <p>
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
                 tempus aliquam.
               </p>
-              <button>MORE</button>
+              <button class="submit-button">MORE</button>
             </article>
           </section>
         </section>
-        <h2>Ipsum sed dolor</h2>
-        <form class="contact-form">
-          <div class="name-email-div">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-          </div>
-          <select>
-            <option value="">- Category -</option>
-            <option value="">Manufacturing</option>
-            <option value="">Shipping</option>
-            <option value="">Administration</option>
-            <option value="">Human Resources</option>
-          </select>
-          <div id="radio-div">
-            <div>
-              <input type="radio" id="low" class="radio-input" value="Low" name="lnh"/>
-              <label for="low">Low</label>
+        <section class="features">
+          <h2>Ipsum sed dolor</h2>
+          <form class="contact-form">
+            <div class="name-email-div">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
             </div>
-            <div>
-              <input type="radio" id="normal" class="radio-input" value="Normal" name="lnh"/>
-              <label for="normal">Normal</label>
+            <select>
+              <option value="">- Category -</option>
+              <option value="">Manufacturing</option>
+              <option value="">Shipping</option>
+              <option value="">Administration</option>
+              <option value="">Human Resources</option>
+            </select>
+            <div id="radio-div">
+              <div>
+                <input type="radio" id="low" class="radio-input" value="Low" name="lnh"/>
+                <label for="low">Low</label>
+              </div>
+              <div>
+                <input type="radio" id="normal" class="radio-input" value="Normal" name="lnh"/>
+                <label for="normal">Normal</label>
+              </div>
+              <div>
+                <input type="radio" id="high" class="radio-input" value="High" name="lnh" />
+                <label for="high">High</label>
+              </div>
             </div>
-            <div>
-              <input type="radio" id="high" class="radio-input" value="High" name="lnh" />
-              <label for="high">High</label>
+            <div id="checkbox-div">
+              <div>
+                <input type="checkbox" id="email-me" class="checkbox-input" value="Email me a copy"/>
+                <label for="email-me">Email me a copy</label>
+              </div>
+              <div>
+                <input type="checkbox" id="human" class="checkbox-input" value="I am a human" />
+                <label for="human">I am a human</label>
+              </div>
             </div>
-          </div>
-          <div id="checkbox-div">
-            <div>
-              <input type="checkbox" id="email-me" class="checkbox-input" value="Email me a copy"/>
-              <label for="email-me">Email me a copy</label>
+            <textarea name="" id="textarea-input" rows="6">Enter your message</textarea>
+            <div id="form-buttons-div">
+              <button type="submit" id="submit-form-button">SEND MESSAGE</button>
+              <button type="reset" id="reset-form-button">RESET</button>
             </div>
-            <div>
-              <input type="checkbox" id="human" class="checkbox-input" value="I am a human" />
-              <label for="human">I am a human</label>
-            </div>
-          </div>
-          <textarea name="" id="textarea-input" rows="6">Enter your message</textarea>
-          <div id="form-buttons-div">
-            <button type="submit" id="submit-form-button">SEND MESSAGE</button>
-            <button type="reset" id="reset-form-button">RESET</button>
-          </div>
-        </form>
-        <section>
+          </form>
+        </section>
+        <section id="bottom-articles">
           <h2>Ipsum sed dolor</h2>
           <h3>Text</h3>
           <p>
@@ -215,7 +219,7 @@
             faucibus.
           </blockquote>
           <h3>Left & Right</h3>
-          <section id="bottom-articles">
+          <section id="bottom-articles-left">
             <img src="/Week-02/assets/little-blurred-01.jpg" alt="" id="img-01"/>
             <p>
               Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis
@@ -227,6 +231,8 @@
               faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
               adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
             </p>
+          </section>
+          <section id="bottom-articles-right">
             <img src="/Week-02/assets/little-blurred-02.jpg" alt="" id="img-02" />
             <p>
               Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis
